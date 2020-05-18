@@ -1,5 +1,13 @@
-com\daou\mqtest\demo\RabbitmqTutRunner.class
+com\daou\mqtest\demo\receiver\TutPubSubReceiver.class
 com\daou\mqtest\demo\sender\Tut1Sender.class
-com\daou\mqtest\demo\mq\MqConfTut1.class
-com\daou\mqtest\demo\receiver\Tut1Receiver.class
 com\daou\mqtest\demo\DemoApplication.class
+com\daou\mqtest\demo\RabbitmqTutRunner.class
+com\daou\mqtest\demo\sender\TutPubSubSender.class
+com\daou\mqtest\demo\mq\MqConfTut1.class
+com\daou\mqtest\demo\mq\mqConfTutPubSub$Receiverconfig.class
+com\daou\mqtest\demo\receiver\TutRoutReceiver.class
+com\daou\mqtest\demo\mq\mqConfTutPubSub.class
+com\daou\mqtest\demo\sender\TutRoutSender.class
+com\daou\mqtest\demo\receiver\Tut1Receiver.class
+com\daou\mqtest\demo\mq\mqConfRouting$ReceiverConfig.class
+com\daou\mqtest\demo\mq\mqConfRouting.class
