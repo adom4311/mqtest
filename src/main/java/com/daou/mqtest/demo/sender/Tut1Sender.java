@@ -13,9 +13,10 @@ public class Tut1Sender {
     @Autowired
     private Queue queue;
 
-    @Scheduled(fixedDelay = 1000, initialDelay = 500)
+    @Scheduled(fixedDelay = 1000, initialDelay = 50)
     public void send(){
         String message = "Hello world";
+        System.out.println("name:"+queue.getName() + "| actualname:"+queue.getActualName());
         this.rabbitTemplate.convertAndSend(queue.getName(), message);
         System.out.println("[x] send '"+ message + "'");
     }

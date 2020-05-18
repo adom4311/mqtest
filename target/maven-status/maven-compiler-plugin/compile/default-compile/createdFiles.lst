@@ -1,0 +1,5 @@
+com\daou\mqtest\demo\RabbitmqTutRunner.class
+com\daou\mqtest\demo\sender\Tut1Sender.class
+com\daou\mqtest\demo\mq\MqConfTut1.class
+com\daou\mqtest\demo\receiver\Tut1Receiver.class
+com\daou\mqtest\demo\DemoApplication.class

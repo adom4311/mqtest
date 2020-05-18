@@ -7,7 +7,9 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Profile;
 
-@Profile({"tut1","hello-world"})
+import javax.sound.midi.SysexMessage;
+
+@Profile({"hello-world"})
 @Configuration
 public class MqConfTut1 {
 
@@ -19,12 +21,14 @@ public class MqConfTut1 {
     @Profile("receiver")
     @Bean
     public Tut1Receiver receiver(){
+        System.out.println("reciever start");
         return new Tut1Receiver();
     }
 
     @Profile("sender")
     @Bean
     public Tut1Sender sender(){
+        System.out.println("sender start");
         return new Tut1Sender();
     }
 }
